@@ -9,9 +9,7 @@ h1{
 .name-highlight {
     color: brown;
 }
-h3{
-    font-family: 'Yeon Sung', sans-serif;
-}
+
 .half-width{
     width: 40%;
     float: left;
@@ -22,7 +20,7 @@ h3{
 .half-width img{
     width: 100%;
 }
-.top-banner{
+.top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
@@ -41,12 +39,104 @@ section{
 header {
     padding: 15px 0px;
 }
-header ul{
-    
+header h1 , header h3 {
+    text-decoration: capitalized;
+}
+header ul{   
     display: flex;
     float: right;
     list-style: none;
     margin-right: 10%;
 }
-header ul li{padding-right: 3rem;}
-header ul li a{text-decoration: none;color: #000;font-family: unset;}
+header ul li{
+    padding-right: 3rem;
+}
+header ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: unset;
+	font-weight: 700;
+}
+
+.gallery {
+    width: 100%;
+    background: #c9deffdb;
+    text-align: justify;
+}
+.gallery > h1 {
+    text-align: center;
+    padding-top: 75px;
+}
+.gallery span {
+    color: #f77;
+}
+.container {
+   margin : 0 auto;
+   width: 90%;
+}
+.column1of3 {
+    width: 30%;
+    background-color: #fff;
+    float: left;
+    padding: 1%;
+    margin:5px;
+    border-radius: 24px;
+}
+.column1of3::first {
+    margin-left: 30px;;
+}
+.column1of3 img {
+    width: 91%;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.column1of3 h2 {
+
+    text-align: center;
+    font-weight: 1000;
+}
+.column1of3 p {
+    
+}
+.chat {
+  background: url(images/chat_banner.png);
+}
+.chat img {
+
+}
+.chat .btn {
+    margin-top: 20px;
+}
+.btn {
+  padding: 10px 15px;
+  /* width: 200px; */
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-orange {
+    color: #fff;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+.footer-section{
+    background-image: url(images/chat_banner.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: 22%;
+    margin-top: 7%;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+.footer-section{
+    display: flex;
+    /*! flex-wrap: \\; */
+    height: 300px;
+    align-items: baseline;
+}
+
+.footer-section a{
+    margin-left: 350px;
+    margin-top: 90px;
+}
